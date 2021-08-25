@@ -5,7 +5,7 @@ const Recaptcha = require('express-recaptcha').RecaptchaV2
 const formData = require('form-data')
 const Mailgun = require('mailgun.js')
 const mailgun = new Mailgun(formData)
-require('dotenv').config()
+// require('dotenv').config()
 const {check, validationResult} = require('express-validator')
 
 const validation = [
@@ -45,7 +45,7 @@ const handlePostRequest = (req, res) => {
 
     if(errors.isEmpty() === false) {
         const currentError = errors.array()[0]
-        return res.send(`<div class="alert alert-danger" role="alert"><strong>Oh snap!</strong> ${currentError.msg}</div>`)
+        return res.send(`<div class="alert alert-danger" role="alert"><strong>Oh snap!!</strong> ${currentError.msg}</div>`)
     }
 
     const {email, subject, name, message} = req.body
@@ -65,7 +65,7 @@ const handlePostRequest = (req, res) => {
         )
         .catch(err =>
             res.send(
-                `<div class="alert alert-danger" role="alert"><strong>Oh snap!</strong>${err}</div>`
+                `<div class="alert alert-danger" role="alert"><strong>Oh snap!!!</strong>${err}</div>`
             )
         )
 }

@@ -31,14 +31,10 @@
                         <a class="nav-link active" href="#menu">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#find-us">Find Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#the-truck">The Truck</a>
-                    </li>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link active" href="#about-us">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#find-us">Find Us</a>
                     </li>
                     </li>
                     <li class="nav-item">
@@ -129,12 +125,11 @@
 
 
     <!--//About Us Page-->
-    <div class="container about-us mt-5">
-        <div class="container">
-            <div class="row text-start">
-                <h1>It all started when...</h1>
-
-                <div class="container">
+    <section class="about-us">
+    <div class="container mt-5">
+        <div class="container about-us">
+                    <div class="row text-start">
+                        <h1>It all started when...</h1>
                     <div class="row">
                         <div class="col align-self-start">
                             <img class="text-center rounded" src="images/about-the-guys/guys-young.png" alt="young" height="300"
@@ -162,7 +157,6 @@
                     <h1>Fast-forward 5 years... Omar moves back to New Mexico and the guys start working together again.</h1>
                     <h3>For ten years, the guys worked as managers. During their shifts, they would talk about their dreams and things they wanted to accomplish. They both expressed interest in owning a food truck, so they started talking about menu ideas, locations, truck styles and many other things. Next thing you know, Mike and Omar put an order in to get a custom trailer made. After 4 months of waiting, the trailer is almost complete and they're almost ready to hit the streets of NM. </h3>
 
-
                     <div class="row mt-5">
                         <div class="col align-self-start">
                             <img class="text-center rounded" src="images/about-the-guys/looking.png" alt="look" height="300"
@@ -179,8 +173,8 @@
                                  width="300"/>
                             <h5>It's pretty much happily ever after from here on out. Here's to big dreams and friendship!</h5>
                         </div>
-                    </div>
-                </div>
+                    </div></div></div></div>
+    </section>
 
 
     <!--//Where's the truck?-->
@@ -205,7 +199,7 @@
 
                 <!--Inside the Truck-->
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-md-12">
                     <h1 class="text-center" id="the-truck">Take a look inside...</h1></div>
                     <div class="slide hi-slide my-3">
                 <ul>
@@ -316,55 +310,14 @@
                                 <div class="g-recaptcha my-2" data-sitekey="6LcvCRgcAAAAAKnnS6uFVoFwDj46q0v3gzNlrkw0"></div>
                                 <button class="btn btn-dark text-light my-2" type="submit" id="send-button">Submit</button>
                             </form>
+                            <div id="output-area">
+                            </div>
                         </div>
                     </section>
 
-            <!--//Request Form-->
-            <!--            <section class="container bg-warning">-->
-            <!--                <div class="col-md-6">-->
-            <!--                    <label for="inputName" class="form-label">Name</label>-->
-            <!--                    <input type="text" class="form-control" id="inputName" placeholder="First and Last Name">-->
-            <!--                </div>-->
-            <!--                <div class="col-md-6">-->
-            <!--                    <label for="inputEmail4" class="form-label">Email</label>-->
-            <!--                    <input type="email" class="form-control" id="inputEmail4">-->
-            <!--                <div class="col-md-6">-->
-            <!--                    <label for="inputPhone" class="form-label">Phone Number</label>-->
-            <!--                    <input type="phoneNumber" class="form-control" id="inputPhone">-->
-            <!--                </div>-->
-            <!--                <div class="col-md-6">-->
-            <!--                    <label for="inputDate" class="form-label">Date of Event</label>-->
-            <!--                    <input type="date" class="form-control" id="inputDate">-->
-            <!--                </div>-->
-            <!--                <div class="col-12">-->
-            <!--                    <label for="inputAddress" class="form-label">Address of Event</label>-->
-            <!--                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St ABQ, NM">-->
-            <!--                </div>-->
-            <!--                <div class="col-md-6">-->
-            <!--                    <label for="time" class="form-label">Begin & End Time of Event</label>-->
-            <!--                    <input type="text" class="form-control" id="time" placeholder="1pm-5pm">-->
-            <!--                </div>-->
-            <!--                <div class="col-md-4">-->
-            <!--                    <label for="inputPayment" class="form-label">Responsible for Payment</label>-->
-            <!--                    <select id="inputPayment" class="form-select">-->
-            <!--                        <option selected>Choose...</option>-->
-            <!--                        <option>Attendees</option>-->
-            <!--                        <option>Company/Organization</option>-->
-            <!--                    </select>-->
-            <!--                </div>-->
-            <!--                <div class="col-md-2">-->
-            <!--                    <label for="input#OfGuests" class="form-label"># of Guests</label>-->
-            <!--                    <input type="text" class="form-control" id="input#OfGuests">-->
-            <!--                </div>-->
-            <!--                <div class="col-12">-->
-            <!--                    <button type="submit" class="btn btn-primary">Submit</button>-->
-            <!--                </div>-->
-            <!--            </form>-->
-            <!--            </section>-->
 
 
-
-            <!--Bootstrap Bundle with Popper-->
+                    <!--Bootstrap Bundle with Popper-->
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
                     integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
                     crossorigin="anonymous"></script>
@@ -388,6 +341,48 @@
 </body>
 </html>
 
+<!--//Request Form-->
+<!--            <section class="container bg-warning">-->
+<!--                <div class="col-md-6">-->
+<!--                    <label for="inputName" class="form-label">Name</label>-->
+<!--                    <input type="text" class="form-control" id="inputName" placeholder="First and Last Name">-->
+<!--                </div>-->
+<!--                <div class="col-md-6">-->
+<!--                    <label for="inputEmail4" class="form-label">Email</label>-->
+<!--                    <input type="email" class="form-control" id="inputEmail4">-->
+<!--                <div class="col-md-6">-->
+<!--                    <label for="inputPhone" class="form-label">Phone Number</label>-->
+<!--                    <input type="phoneNumber" class="form-control" id="inputPhone">-->
+<!--                </div>-->
+<!--                <div class="col-md-6">-->
+<!--                    <label for="inputDate" class="form-label">Date of Event</label>-->
+<!--                    <input type="date" class="form-control" id="inputDate">-->
+<!--                </div>-->
+<!--                <div class="col-12">-->
+<!--                    <label for="inputAddress" class="form-label">Address of Event</label>-->
+<!--                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St ABQ, NM">-->
+<!--                </div>-->
+<!--                <div class="col-md-6">-->
+<!--                    <label for="time" class="form-label">Begin & End Time of Event</label>-->
+<!--                    <input type="text" class="form-control" id="time" placeholder="1pm-5pm">-->
+<!--                </div>-->
+<!--                <div class="col-md-4">-->
+<!--                    <label for="inputPayment" class="form-label">Responsible for Payment</label>-->
+<!--                    <select id="inputPayment" class="form-select">-->
+<!--                        <option selected>Choose...</option>-->
+<!--                        <option>Attendees</option>-->
+<!--                        <option>Company/Organization</option>-->
+<!--                    </select>-->
+<!--                </div>-->
+<!--                <div class="col-md-2">-->
+<!--                    <label for="input#OfGuests" class="form-label"># of Guests</label>-->
+<!--                    <input type="text" class="form-control" id="input#OfGuests">-->
+<!--                </div>-->
+<!--                <div class="col-12">-->
+<!--                    <button type="submit" class="btn btn-primary">Submit</button>-->
+<!--                </div>-->
+<!--            </form>-->
+<!--            </section>-->
 
 
 
