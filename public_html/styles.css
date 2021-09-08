@@ -1,8 +1,10 @@
-
-
 body {
-    font-family: 'Caveat Brush', cursive;
+    font-family: 'Mali', cursive;
 }
+
+/*body {*/
+/*    font-family: 'Caveat Brush', cursive;*/
+/*}*/
 
 .navbar {
     /* The image used */
@@ -10,23 +12,15 @@ body {
     background-size: contain;
 }
 
-
-.hero {
-    width:100%;
-    height:500px;
-    background-size:contain;
-    background-repeat: no-repeat;
-    position: relative;
-    background-image: url('images/brisket-burger.jpg');
-}
-.hero h5 {
-    color:white;
-    text-shadow:2px 2px #333;
+.burger {
+    background-color: #c50e0e;
 }
 
 
 .menu {
-    background-image: url('images/blackboard-texture.jpg');
+    background-color: black;
+    background-size: contain;
+    color: #c50e0e;
 }
 
 .menu-text {
@@ -34,10 +28,17 @@ body {
 }
 
 
+
+
 .truck-container {
+    background-image: url("images/bckgrnd-black.png");
+    background-size: contain;
     color: ghostwhite;
 }
 
+.hire{
+    background-color: black;
+}
 
 
 
@@ -72,8 +73,10 @@ body {
 }
 
 .about-us{
+    background-color: #c50e0e;
     color: ghostwhite;
 }
+
 
 
 
