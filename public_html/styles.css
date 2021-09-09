@@ -34,14 +34,15 @@ body {
 
 
 .about{
-    background-image: url("images/bckgrnd-red.png");
+    background-image: url("images/bckgrnd-white.png");
     background-size: contain;
     background-repeat: repeat;
 }
 
 .story {
-    background-color: #c50e0e;
-    color: ghostwhite;
+    background-color: white;
+    opacity: 0.95;
+    color: black;
 }
 
 
@@ -49,10 +50,12 @@ body {
 .truck {
     background-image: url("images/bckgrnd-black.png");
     background-size: contain;
+    background-repeat: unset;
 }
 
 .where{
     background-color: #FFD131;
+    color: black;
 }
 
 .burger {
@@ -95,7 +98,7 @@ body {
 }
 
 .hi-slide {
-    position: center;
+    position: relative;
     width: 754px;
     height: 400px;
     margin: 115px auto 0;
@@ -103,7 +106,7 @@ body {
 
 .hi-slide .hi-next,
 .hi-slide .hi-prev {
-    position: center;
+    position: absolute;
     top: 50%;
     width: 40px;
     height: 40px;
