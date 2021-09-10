@@ -64,12 +64,13 @@ body {
 
 
 .menu {
-    background-color: black;
+    background-image: url("images/giphys/fire.gif");
+    background-size: cover;
     color: #c50e0e;
 }
 
-.menu-text {
-    color: #c50e0e;
+.skillet {
+    background-color: black;
 }
 
 .mac {
@@ -98,10 +99,9 @@ body {
 }
 
 .hi-slide {
-    position: relative;
+    position: center;
     width: 754px;
     height: 400px;
-    margin: 115px auto 0;
 }
 
 .hi-slide .hi-next,
