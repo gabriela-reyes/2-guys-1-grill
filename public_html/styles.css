@@ -2,32 +2,13 @@ body, html {
     height: 100%;
 }
 
-.bg {
-    /* The image used */
-    background-image: url("images/bckgrnd-black.png");
-
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-
 
 body {
     font-family: 'Mali', cursive;
 }
 
-/*body {*/
-/*    font-family: 'Caveat Brush', cursive;*/
-/*}*/
 
 .navbar {
-    /* The image used */
     background-color: #c50e0e;
     background-size: contain;
 }
@@ -48,15 +29,15 @@ body {
 
 
 .truck {
-    background-image: url("images/bckgrnd-black.png");
-    background-size: contain;
-    background-repeat: unset;
+    background-image: url("images/map.png");
+    background-size: cover;
 }
 
-.where{
-    background-color: #FFD131;
-    color: black;
-}
+/*.where{*/
+/*    background-color: #FFD131;*/
+/*    opacity: 0.95;*/
+/*    color: black;*/
+/*}*/
 
 .burger {
     background-color: #c50e0e;
