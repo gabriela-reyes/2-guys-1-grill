@@ -31,12 +31,17 @@ body {
 .truck {
     background-image: url("images/map.png");
     background-size: cover;
+    color: #c50e0e;
 }
 
-/*.where{*/
-/*    background-color: #FFD131;*/
-/*    opacity: 0.95;*/
-/*    color: black;*/
+.where {
+    color: #c50e0e;
+}
+
+/*.truck{*/
+/*    background-color: black;*/
+/*    opacity: 0.75;*/
+/*    color: white;*/
 /*}*/
 
 .burger {
@@ -45,7 +50,7 @@ body {
 
 
 .menu {
-    background-image: url("images/giphys/fire.gif");
+    background-image: url("images/giphys/flames1.gif");
     background-size: cover;
     color: #c50e0e;
 }
@@ -60,13 +65,6 @@ body {
 
 
 
-
-
-.truck-container {
-    background-image: url("images/bckgrnd-black.png");
-    background-size: contain;
-    color: ghostwhite;
-}
 
 .hire{
     background-color: black;
